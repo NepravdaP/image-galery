@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+body {
+}
+header {
+  border-bottom: 5px solid purple;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 0 20px;
+}
+.heading {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.search-box {
+  position: relative;
+  width: 350px;
+}
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+  border: 1px solid #dddddd;
+}
+.search-box i {
+  color: #000;
+  position: absolute;
+  cursor: pointer;
+  top: 25%;
+  right: 4%;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img {
+  width: 380px;
+  height: 215px;
+  margin-top: 15px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+}
+footer {
+  position: relative;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  height: 12%;
+  width: 100%;
+  padding: 2% 5%;
+}
+
+.footer-year {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+}
+
+.gh-logo {
+  height: 50px;
+  width: 50px;
+}
+.rs-logo {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 670px) {
+  .header {
+    justify-content: center;
+    margin: 3% auto;
+  }
+  .rs-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .gh-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
