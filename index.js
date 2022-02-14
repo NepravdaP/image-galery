@@ -5,7 +5,6 @@ const input = document.querySelector("input");
 // const searchBtn = document.querySelector(.fa-search)
 
 const search = (e) => {
-  console.log("zqalupa");
   searchRequest = e.target.value;
   while (grid.firstChild) {
     grid.removeChild(grid.lastChild);
